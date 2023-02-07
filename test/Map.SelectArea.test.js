@@ -1,5 +1,5 @@
 import tape  from 'tape';
-import L from 'leaflet';
+import L from 'easy-arena-leaflet';
 require('../');
 
 function triggerEvent (element, type, options = {}) {

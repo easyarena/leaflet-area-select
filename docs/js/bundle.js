@@ -645,7 +645,7 @@ module.exports = require('./src/Map.SelectArea');
   var L;
   if (typeof define === 'function' && define.amd) {
     // AMD
-    define(['leaflet'], factory);
+    define(['easy-arena-leaflet'], factory);
   } else if (typeof module !== 'undefined') {
     // Node/CommonJS
     L = typeof window !== "undefined" ? window['L'] : typeof global !== "undefined" ? global['L'] : null;
