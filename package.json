@@ -1,6 +1,6 @@
 {
   "name": "easy-arena-leaflet-area-select",
-  "version": "1.0.501-alpha.1",
+  "version": "1.0.501",
   "description": "Area select tool for leaflet",
   "main": "index.js",
   "directories": {
